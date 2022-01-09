@@ -5,7 +5,7 @@ tasks:
     before: |
       echo R_LIBS_USER=$GITPOD_REPO_ROOT/../.R/library > /home/gitpod/.Renviron
       cp .gitpod/.Rprofile /home/gitpod/  
-      echo 'RSTUDIO_CONFIG_DIR=/workspace/stat_rethinking_2022/.gitpod' >> /home/gitpod/.profile
+      echo 'RSTUDIO_CONFIG_DIR=/workspace/advanced-data-analysis/.gitpod' >> /home/gitpod/.profile
     command: /usr/lib/rstudio-server/bin/rstudio-server start
   - name: R
     command: R
